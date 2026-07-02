@@ -14,3 +14,7 @@ while a != 0:
     a, r = divmod(a,2)
     b23 = str(r) + b23
 print(b23)
+"""0
+1 0 1 1 1
+10111
+"""
