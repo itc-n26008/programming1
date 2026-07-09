@@ -25,3 +25,29 @@ while True:
 ->XXXX
 4725
 """
+"""先生が書いたやつ
+import random
+numbers = [chr(i) for i in range(ord('0'), ord('9') + 1)]
+chr→　数字から文字に変換
+ord→　文字コードから数字に変換
+rangeは、最後のやつを含まないから、＋１を入れている
+１，２，３，４，５，６，７，８，９
+#print(numbers)
+sample4 = random.sample(numbers, k=4)
+num4 = ''.join(sample4)
+print(num4)
+while True:
+    val = input()
+    if val == num4:
+        print('OK')
+        break
+    if len(val) != 4:
+        print('input 4 numbers.')
+        continue
+    answer = ''
+    for i in range(4):
+        if num4[i] == val[i]:
+            answer += num4[i]
+        else:
+            answer += 'X'
+    print('-> ' + answer)
