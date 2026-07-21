@@ -8,7 +8,7 @@
 - [第５章](#第５章)
 
 <!-- /TOC -->
-<!--python3 add_toc.py --inplace README.mdって書けば目次できるよ-->
+<!--python3 add_toc.py --inplace README.mdって書けば目次できるよ 自動ではいるから上には書かない-->
 # Programming I
 - Programming I の成果物提出用のリポジトリです。
 ## 第２章
