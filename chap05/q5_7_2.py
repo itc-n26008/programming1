@@ -9,17 +9,17 @@ data=[
 print(data)
 
 #辞書変数生成
-member_information={}
+member_information={}#入れる箱を作っている
 
 #表データをレコード毎に格納する
 for record in data:
     key=record[0]
-    info=record[1:]
-    member_information[key]=info
+    info=record[1:]#レコードとそれ以外
+    member_information[key]=info#さっきの箱をinfoにする
 
 #結果を表示する
 print('number','information',sep='\t')
-for key, info in member_information.items():
+for key, info in member_information.items():#キーと値を同時に取り出すメソッド
     print(key,info)
 '''実行結果
 [['0001', 'Male', 'Yamada', 'Tarou', 25, 'Tokyo'], ['0002', 'Male', 'Satou', 'Takahashi', 27, 'Kanagawa'], ['0003', 'Female', 'Tanaka', 'Yuko', 25, 'Saitama'], ['0004', 'Male', 'Suzuki', 'Ichirou', 35, 'Hokkaido']]
