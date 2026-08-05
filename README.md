@@ -10,7 +10,7 @@
 
 <!-- /TOC -->
 <!--
-python3 ../add_toc.py --inplace README.md
+contents
 って書けば目次できるよ 自動ではいるから上には書かない-->
 # Programming I
 - Programming I の成果物提出用のリポジトリです。
@@ -57,3 +57,4 @@ python3 ../add_toc.py --inplace README.md
 - 5.10 比較 ([問題1](chap05/q5_10_1.py))
 ## 第６章
 - 6.1 クラスの基本([問題1](chap06/q6_1_1.py)、[問題2](chap06/q6_1_2.py))
+- 6.2 クラス変数とインスタンス変数([問題1](chap06/q6_2_1.py))
